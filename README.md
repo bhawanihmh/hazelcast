@@ -10,3 +10,5 @@ https://hazelcast.org/download/
 5.	Execute startManCenter in mancenter  “hazelcast-3.7.5\mancenter”
 6.	Run HazelCastNodes.java in sample project to create hazelcast node. Run as many instances as required nodes.
 7.	Run HazelCastClient.java to access cached data.
+8. insert employee data like:
+   INSERT INTO `employee` (`id`, `name`, `role`) VALUES (1, 'Bhawani Singh', 'SPL');
